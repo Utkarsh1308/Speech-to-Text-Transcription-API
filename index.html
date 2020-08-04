@@ -14,9 +14,10 @@
   <body>
     <h1>Speech to Text</h1>
 
-    <p class="hints">Tap/click the mic to start recording &nbsp; &nbsp; </p>
+    <p class="hints">Tap/click to start recording &nbsp; &nbsp; </p>
     <p class='icon'>
-      <i class="fa fa-microphone fa-2x" aria-hidden="true"></i>
+      <button id="start_button" onclick="startButton(event)">Play</button>&nbsp;&nbsp;&nbsp;
+      <button class="stop">Stop</button>
     </p>
     <div class="lower">
         <p class="output"><em></em></p>

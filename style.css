@@ -39,7 +39,7 @@ ul {
 }
 
 .hints {
-  color: white;
+  color: #F3D445;
 }
 
 h1 {
@@ -74,5 +74,18 @@ h1 {
 }
 
 .icon {
-  color: #F3D445;
+  color: black;
+}
+
+button {
+  background-color: #F3D445;
+  font: 24px Raleway;
+  padding-bottom: 8px;
+  padding-top: 4px;
+  font-weight: 10;
+  border: 1px solid grey;
+  width: 100px;
+  height: 40px;
+  color: #0C0D0F;
+
 }
