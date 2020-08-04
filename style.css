@@ -1,0 +1,78 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #18191D;
+}
+
+h1, p {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 8px;
+}
+
+div {
+  height: 100px;
+  overflow: auto;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.2);
+}
+
+ul {
+  margin: 0;
+}
+
+.hints span {
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+.hints {
+  color: white;
+}
+
+h1 {
+  color: #F3D445;
+}
+
+#textarea {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    border: 4px solid #F3D445;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+    height: 200px;
+    overflow: auto;
+    padding: 2px;
+    resize: both;
+    width: 800px;
+    font: 18px/30px 'Source Sans Pro','Open Sans',Georgia,serif;
+    padding-left: 10px;
+}
+
+.output {
+  color: red;
+  font-size: 20px;
+}
+
+.lower {
+  background-color: #18191D;
+}
+
+.icon {
+  color: #F3D445;
+}
